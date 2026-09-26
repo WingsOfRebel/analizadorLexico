@@ -1,0 +1,10 @@
+# Herramientas portatiles (GCC/Flex para Windows) - no son parte del proyecto
+tools/
+
+# Generado por Flex (se regenera con: flex analizador.l)
+lexer/lex.yy.c
+
+# Python
+__pycache__/
+*.pyc
+*.pyw

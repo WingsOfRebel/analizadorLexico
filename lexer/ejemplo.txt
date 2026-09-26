@@ -1,0 +1,15 @@
+// Programa de ejemplo para probar el analizador lexico
+int suma(int a, int b) {
+    /* esto es un
+       comentario de bloque */
+    float resultado = 3.14;
+    if (a >= b && a != 0) {
+        resultado = a + b * 2;
+    } else {
+        resultado = a - b / 2;
+    }
+    char mensaje[20] = "Hola mundo";
+    return resultado;
+}
+
+int x = 10 @ 5;
